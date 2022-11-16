@@ -1,0 +1,125 @@
+@import url('https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Great+Vibes&family=Henny+Penny&family=Passion+One&family=Righteous&family=Sarala:wght@400;700&display=swap');
+
+:root{
+    --font01:'Great Vibes', cursive;
+    --font02:'Passion One', cursive;
+    --font03: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+*{
+    margin: 0px;
+    padding: 0px;
+    font-size: 1em;
+}
+html,body{
+    min-height: 100vh;
+    font-family: var(--font03);
+    background-color:gray ;
+}
+header{
+    background-color: black;
+    color: white;
+    padding-top: 30px;
+    text-align: center;
+    padding-bottom: 50px;
+}
+header > h1 {
+    font-family: var(--font02);
+    font-size: 9vw;
+    padding-left: 10px;
+    padding-bottom: 30px;
+    letter-spacing: 50px;
+    text-align: center;
+}
+header > p{
+    padding-bottom: 50px;
+    font-family: var(--font01);
+    font-size: 2em;
+    
+}
+a {
+    text-decoration: none;
+    font-weight: bolder;
+    color: brown;
+}
+a:hover{
+    text-decoration: underline;
+}
+section{ /*feito para ganhar espaco para o efeito paralaxe,com 10% view height em cima e em baixo*/
+    padding-top: 10vh;
+    padding-bottom: 10vh;
+    line-height: 2em; /*espacamento ente as frases*/
+    padding-left: 30px;
+    font-size: 2vw;
+    /*display: inline-block;*/
+}
+section > p{
+    padding-bottom: 2em;
+    padding-left: 5px;
+    font-family: var(--font03);
+    padding-right: 5px;
+    text-indent: 30px;
+   
+}
+section.normal{
+    background-color: white;
+    color: black;
+}
+section.img01 > p {
+   
+    display: inline-block;
+    background-color: rgba(0, 0, 0, 0.368);
+    color: white;
+    box-shadow: 1px 1px 1px rgba(0, 0, 0, 0.664);
+    border-radius: 10px;
+}
+
+section.img01{
+    color: white;
+    background-size: cover;
+    background: black url('img/church-center-1920.jpg') no-repeat fixed;
+
+}
+section.img02 > p {
+    background-color: rgba(0, 0, 0, 0.368);
+    display: inline-block;
+    color: white;
+    box-shadow: 1px 1px 1px rgba(0, 0, 0, 0.664);
+    border-radius: 10px;
+}
+
+section.img02{
+    background-color: white;
+    background-image: url('img/moinho-1500.jpg');
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center right;
+    color: black;
+    background-attachment: fixed;
+    transform: translate(0%, 0%);
+    
+
+}
+section.img03 > p {
+    background-color: rgba(0, 0, 0, 0.368);
+    display: inline-block;
+    color: white;
+    box-shadow: 1px 1px 1px rgba(0, 0, 0, 0.664);
+    border-radius: 10px;
+}
+
+section.img03{
+    background-color: black;
+    color: white;
+    background-image: url('img/church-1920.jpg');
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+
+}
+footer{
+    background-color: black;
+    color: white;
+    text-align: center;
+    padding: 10px;
+}
