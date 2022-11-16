@@ -76,8 +76,11 @@ section.img01 > p {
 
 section.img01{
     color: white;
+    background-color: black;
+    background-image: url('img/church-center-1920.jpg');
+    background-repeat: no-repeat;
     background-size: cover;
-    background: black url('img/church-center-1920.jpg') no-repeat fixed;
+    background-attachment: fixed;
 
 }
 section.img02 > p {
