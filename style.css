@@ -13,6 +13,7 @@
 }
 html,body{
     min-height: 100vh;
+    min-width: 100vw;
     font-family: var(--font03);
     background-color:gray ;
 }
@@ -35,6 +36,7 @@ header > p{
     padding-bottom: 50px;
     font-family: var(--font01);
     font-size: 2em;
+    text-align: center;
     
 }
 a {
