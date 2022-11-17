@@ -16,6 +16,7 @@ html,body{
     min-width: 100vw;
     font-family: var(--font03);
     background-color:gray ;
+    margin: auto;
 }
 header{
     background-color: black;
@@ -79,9 +80,10 @@ section.img01 > p {
 section.img01{
     color: white;
     background-color: black;
-    background-image: url('img/church-center-1920.jpg');
-    background-repeat: no-repeat;
+    background-image: url('img/church-center-1920.jpg');    
     background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center right;
     background-attachment: fixed;
 
 }
@@ -127,4 +129,5 @@ footer{
     color: white;
     text-align: center;
     padding: 10px;
+    margin: auto;
 }
