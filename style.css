@@ -38,6 +38,7 @@ header > p{
     font-family: var(--font01);
     font-size: 2em;
     text-align: center;
+    margin: auto;
     
 }
 a {
@@ -62,6 +63,7 @@ section > p{
     font-family: var(--font03);
     padding-right: 5px;
     text-indent: 30px;
+    margin: auto;
    
 }
 section.normal{
