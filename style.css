@@ -13,7 +13,7 @@
 }
 html,body{
     min-height: 100vh;
-    min-width: 100vw;
+    min-width: 350px;
     font-family: var(--font03);
     background-color:gray ;
     margin: auto;
@@ -67,6 +67,9 @@ section > p{
 section.normal{
     background-color: white;
     color: black;
+}
+section.normal > p{
+    font-size: 1.2em;
 }
 section.img01 > p {
    
