@@ -17,6 +17,7 @@ html,body{
     font-family: var(--font03);
     background-color:gray ;
     margin: auto;
+    overflow-x: auto;
 }
 header{
     background-color: black;
@@ -38,7 +39,7 @@ header > p{
     font-family: var(--font01);
     font-size: 2em;
     text-align: center;
-    margin: auto;
+    
     
 }
 a {
