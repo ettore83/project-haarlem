@@ -25,6 +25,7 @@ header{
     padding-top: 30px;
     text-align: center;
     padding-bottom: 50px;
+    overflow-x: auto;
 }
 header > h1 {
     font-family: var(--font02);
@@ -110,8 +111,8 @@ section.img02{
     color: black;
     background-attachment: fixed;
     transform: translate(0%, 0%);
-    
 
+    
 }
 section.img03 > p {
     background-color: rgba(0, 0, 0, 0.368);
